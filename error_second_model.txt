@@ -1,0 +1,219 @@
+using C++ compiler: 'G__~1.EXE (GCC) 12.3.0'
+g++ -std=gnu++17  -I"C:/PROGRA~1/R/R-43~1.2/include" -DNDEBUG -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/Rcpp/include"  -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/Rcpp/include" -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppArmadillo/include" -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppDist/include" -I"C:/Users/hugog/Desktop/Research/RESEAR~1/MVBCF_~1"   -I"C:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix/include"     -O2 -Wall  -mfpmath=sse -msse2 -mstackrealign  -c SecondModel.cpp -o SecondModel.o
+SecondModel.cpp:89:75: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                           ^
+SecondModel.cpp:89:80: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                ^
+SecondModel.cpp:89:126: error: extended character ’ is not valid in an identifier
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                              ^
+SecondModel.cpp:89:163: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+^
+SecondModel.cpp:89:178: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+               ^
+SecondModel.cpp:89:240: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                             ^
+SecondModel.cpp:89:248: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                                     ^
+SecondModel.cpp:89:251: error: extended character ’ is not valid in an identifier
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                                        ^
+SecondModel.cpp:89:404: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                                                                                                                          
+                                                                       ^
+SecondModel.cpp:89:414: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                                                                                                                          
+                                                                                 ^
+SecondModel.cpp:89:465: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                                                                                                                          
+                                                                                                                                    ^
+SecondModel.cpp:89:480: error: stray '`' in program
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |                                                                                                                                                                   
+                                                                                                                                                                          
+                                                                                                                                                   ^
+SecondModel.cpp:182:64: error: stray '`' in program
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                ^
+SecondModel.cpp:182:69: error: stray '`' in program
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                     ^
+SecondModel.cpp:182:90: error: extended character ’ is not valid in an identifier
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                                          ^
+SecondModel.cpp:182:120: error: stray '`' in program
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                                                                        ^
+SecondModel.cpp:182:135: error: stray '`' in program
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                                                                                       ^
+SecondModel.cpp:182:213: error: stray '`' in program
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                                                                                                                   
+                                                  ^
+SecondModel.cpp:182:221: error: stray '`' in program
+  182 | System: * The document was cut off again mid-definition of the `Tree` class constructor. I’ll reconstruct the complete `MVBCF_Code.cpp` file by combining the original code you provided with the modifications for `num_grf`, ensuring all parts are included and correctly integrated. The artifact below contains the full, corrected version of the file, including:
+      |                                                                                                                                                                   
+                                                          ^
+SecondModel.cpp:183:13: error: stray '`' in program
+  183 | - Unchanged `Node`, `Tree`, and `Forest` classes from the original code.
+      |             ^
+SecondModel.cpp:183:18: error: stray '`' in program
+  183 | - Unchanged `Node`, `Tree`, and `Forest` classes from the original code.
+      |                  ^
+SecondModel.cpp:183:21: error: stray '`' in program
+  183 | - Unchanged `Node`, `Tree`, and `Forest` classes from the original code.
+      |                     ^
+SecondModel.cpp:183:26: error: stray '`' in program
+  183 | - Unchanged `Node`, `Tree`, and `Forest` classes from the original code.
+      |                          ^
+SecondModel.cpp:183:33: error: stray '`' in program
+  183 | - Unchanged `Node`, `Tree`, and `Forest` classes from the original code.
+      |                                 ^
+SecondModel.cpp:183:40: error: stray '`' in program
+  183 | - Unchanged `Node`, `Tree`, and `Forest` classes from the original code.
+      |                                        ^
+SecondModel.cpp:184:18: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                  ^
+SecondModel.cpp:184:37: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                     ^
+SecondModel.cpp:184:40: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                        ^
+SecondModel.cpp:184:54: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                                      ^
+SecondModel.cpp:184:57: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                                         ^
+SecondModel.cpp:184:71: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                                                       ^
+SecondModel.cpp:184:74: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                                                          ^
+SecondModel.cpp:184:84: error: stray '`' in program
+  184 | - New functions (`fit_univariate_grf`, `grow_grf_tree`, `combine_trees`, `fit_mvgrf`) to implement the warm-start mechanism.
+      |                                                                                    ^
+SecondModel.cpp:185:12: error: stray '`' in program
+  185 | - Modified `fast_bart` function with `num_grf` and `use_warm_start` parameters, updated forest initialization, and timing diagnostics.
+      |            ^
+SecondModel.cpp:185:22: error: stray '`' in program
+  185 | - Modified `fast_bart` function with `num_grf` and `use_warm_start` parameters, updated forest initialization, and timing diagnostics.
+      |                      ^
+SecondModel.cpp:185:38: error: stray '`' in program
+  185 | - Modified `fast_bart` function with `num_grf` and `use_warm_start` parameters, updated forest initialization, and timing diagnostics.
+      |                                      ^
+SecondModel.cpp:185:46: error: stray '`' in program
+  185 | - Modified `fast_bart` function with `num_grf` and `use_warm_start` parameters, updated forest initialization, and timing diagnostics.
+      |                                              ^
+SecondModel.cpp:185:52: error: stray '`' in program
+  185 | - Modified `fast_bart` function with `num_grf` and `use_warm_start` parameters, updated forest initialization, and timing diagnostics.
+      |                                                    ^
+SecondModel.cpp:185:67: error: stray '`' in program
+  185 | - Modified `fast_bart` function with `num_grf` and `use_warm_start` parameters, updated forest initialization, and timing diagnostics.
+      |                                                                   ^
+SecondModel.cpp:186:25: error: stray '`' in program
+  186 | - All helper functions (`sum_over_cube_without_slice`, `sample_sigma`) unchanged.
+      |                         ^
+SecondModel.cpp:186:53: error: stray '`' in program
+  186 | - All helper functions (`sum_over_cube_without_slice`, `sample_sigma`) unchanged.
+      |                                                     ^
+SecondModel.cpp:186:56: error: stray '`' in program
+  186 | - All helper functions (`sum_over_cube_without_slice`, `sample_sigma`) unchanged.
+      |                                                        ^
+SecondModel.cpp:186:69: error: stray '`' in program
+  186 | - All helper functions (`sum_over_cube_without_slice`, `sample_sigma`) unchanged.
+      |                                                                     ^
+SecondModel.cpp:188:31: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                               ^
+SecondModel.cpp:188:45: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                             ^
+SecondModel.cpp:188:65: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                                                 ^
+SecondModel.cpp:188:77: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                                                             ^
+SecondModel.cpp:188:87: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                                                                       ^
+SecondModel.cpp:188:102: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                                                                                      ^
+SecondModel.cpp:188:116: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                                                                                                    ^
+SecondModel.cpp:188:130: error: stray '`' in program
+  188 | The artifact is wrapped in an `<xaiArtifact>` tag with a unique `artifact_id`, titled `MVBCF_Code.cpp`, and set to `text/x-c++src` content type, as per the instructions.
+      |                                                                                                                                  ^
+SecondModel.cpp: In member function 'void Node::update_tau(arma::mat, arma::mat, arma::mat, arma::mat)':
+SecondModel.cpp:70:21: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]      
+   70 |     for(int i = 0; i<node_resid.n_rows; i++) {
+      |                    ~^~~~~~~~~~~~~~~~~~
+SecondModel.cpp: At global scope:
+SecondModel.cpp:87:26: error: '\U00006570\U00005341' has not been declared
+   87 |   Tree(int num_nodes = 1,数十
+      |                          ^~~~
+SecondModel.cpp:89:7: error: expected ',' or '...' before ':' token
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      |       ^
+SecondModel.cpp:98:21: error: expected ')' before ';' token
+   98 | using namespace Rcpp;
+      |                     ^
+      |                     )
+SecondModel.cpp:87:7: note: to match this '('
+   87 |   Tree(int num_nodes = 1,数十
+      |       ^
+SecondModel.cpp:172:7: error: 'Tree::Tree' has the same name as the class in which it is declared
+  172 | class Tree {
+      |       ^~~~
+SecondModel.cpp:925:2: error: expected unqualified-id at end of input
+  925 | }
+      |  ^
+SecondModel.cpp:925:2: error: expected '}' at end of input
+SecondModel.cpp:80:12: note: to match this '{'
+   80 | class Tree {
+      |            ^
+SecondModel.cpp:89:1: error: default argument missing for parameter 2 of 'Tree::Tree(int, int)'
+   87 |   Tree(int num_nodes = 1,数十
+      |                          ~~~~
+   88 |
+      |
+   89 | System: * The document appears to have been cut off mid-definition of the `Tree` class. Since you requested a complete file, I’ll assume the rest of the original `MVBCF_Code.cpp` remains unchanged except for the modifications to integrate `num_grf`. I’ll complete the file by including the unchanged portions from the original code you provided, combined with the new functions and modifications to the `fast_bart` function. Below is the full corrected version of `MVBCF_Code.cpp`.
+      | ^~~~~~
+SecondModel.cpp:87:12: note: ...following parameter 1 which has a default argument
+   87 |   Tree(int num_nodes = 1,数十
+      |        ~~~~^~~~~~~~~~~~~
+SecondModel.cpp: In member function 'void Tree::Node::update_tau(arma::mat, arma::mat, arma::mat, arma::mat)':
+SecondModel.cpp:162:21: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]     
+  162 |     for(int i = 0; i<node_resid.n_rows; i++) {
+      |                    ~^~~~~~~~~~~~~~~~~~
+SecondModel.cpp: At global scope:
+SecondModel.cpp:925:2: error: expected unqualified-id at end of input
+  925 | }
+      |  ^
+make: *** [C:/PROGRA~1/R/R-43~1.2/etc/x64/Makeconf:272: SecondModel.o] Error 1
+Error in sourceCpp("SecondModel.cpp") :
+  Error 1 occurred building shared library.

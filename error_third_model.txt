@@ -1,0 +1,69 @@
+using C++ compiler: 'G__~1.EXE (GCC) 12.3.0'
+g++ -std=gnu++17  -I"C:/PROGRA~1/R/R-43~1.2/include" -DNDEBUG -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/Rcpp/include"  -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/Rcpp/include" -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppArmadillo/include" -I"C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppDist/include" -I"C:/Users/hugog/Desktop/Research/RESEAR~1/MVBCF_~1"   -I"C:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix/include"     -O2 -Wall  -mfpmath=sse -msse2 -mstackrealign  -c ThirrdModel.cpp -o ThirrdModel.o
+ThirrdModel.cpp: In member function 'void Node::update_tau(arma::mat, arma::mat, arma::mat, arma::mat)':
+ThirrdModel.cpp:93:21: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]      
+   93 |     for(int i = 0; i<node_resid.n_rows; i++)
+      |                    ~^~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'int Tree::get_terminal_node()':
+ThirrdModel.cpp:178:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Node>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  178 |     for (int i = 0; i < node_vector.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'int Tree::get_non_terminal_node()':
+ThirrdModel.cpp:194:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Node>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  194 |     for (int i = 0; i < node_vector.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'int Tree::get_parent_child()':
+ThirrdModel.cpp:217:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Node>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  217 |     for (int i = 0; i < node_vector.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp:218:66: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  218 |       if (!node_vector[i].is_terminal & node_vector[i].in_use & i!=0) {
+      |                                                                 ~^~~
+ThirrdModel.cpp: In member function 'int Tree::get_terminal_parent()':
+ThirrdModel.cpp:240:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Node>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  240 |     for (int i = 0; i < node_vector.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'void Tree::grow(arma::mat, arma::mat, int, int)':
+ThirrdModel.cpp:305:16: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  305 |     if(sum_more>=min_nodesize & sum_less>=min_nodesize)
+      |        ~~~~~~~~^~~~~~~~~~~~~~
+ThirrdModel.cpp:307:28: warning: comparison of integer expressions of different signedness: 'std::vector<Node>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  307 |       if(node_vector.size()<2*grow_index+2+1)
+      |          ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'bool Tree::has_empty_nodes(int)':
+ThirrdModel.cpp:448:44: warning: comparison of integer expressions of different signedness: 'arma::enable_if2<true, unsigned int>::result' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  448 |         if(sum(node_vector[i].observations)<min_nodesize)
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'double Tree::log_lik(arma::mat, arma::mat, double, double, arma::mat)':
+ThirrdModel.cpp:467:22: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Node>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  467 |     for(int i = 0; i < node_vector.size(); i++)
+      |                    ~~^~~~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In member function 'double Tree::log_lik_tau(arma::mat, arma::mat, double, double, arma::mat, arma::mat)':
+ThirrdModel.cpp:510:22: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Node>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  510 |     for(int i = 0; i < node_vector.size(); i++)
+      |                    ~~^~~~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp:524:25: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]     
+  524 |         for(int t = 0; t<node_resid.n_rows; t++)
+      |                        ~^~~~~~~~~~~~~~~~~~
+ThirrdModel.cpp: In function 'Rcpp::List fast_bart(arma::mat, arma::mat, arma::mat, arma::mat, arma::mat, arma::mat, double, double, double, double, arma::mat, arma::mat, int, arma::mat, int, int, int, int, int)':
+ThirrdModel.cpp:765:16: error: 'tau_forest' was not declared in this scope; did you mean 'bart_forest'?
+  765 |       gfr_grow(tau_forest.tree_vector[t], X_mod, X_mod_test, p_tau, min_nodesize);
+      |                ^~~~~~~~~~
+      |                bart_forest
+ThirrdModel.cpp:772:36: error: 'tau_forest' was not declared in this scope; did you mean 'bart_forest'?
+  772 |     tree_preds_tau.slice(t)      = tau_forest.tree_vector[t].get_predictions(outcomes);
+      |                                    ^~~~~~~~~~
+      |                                    bart_forest
+ThirrdModel.cpp:937:23: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]     
+  937 |     for (int i = 0; i < y.n_cols; i++) {
+      |                     ~~^~~~~~~~~~
+ThirrdModel.cpp:941:23: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]     
+  941 |     for (int i = 0; i < y.n_cols; i++) {
+      |                     ~~^~~~~~~~~~
+ThirrdModel.cpp:945:23: warning: comparison of integer expressions of different signedness: 'int' and 'const arma::uword' {aka 'const unsigned int'} [-Wsign-compare]     
+  945 |     for (int i = 0; i < y.n_cols; i++) {
+      |                     ~~^~~~~~~~~~
+make: *** [C:/PROGRA~1/R/R-43~1.2/etc/x64/Makeconf:272: ThirrdModel.o] Error 1
+Error in sourceCpp("ThirrdModel.cpp") :
+  Error 1 occurred building shared library.
+>
