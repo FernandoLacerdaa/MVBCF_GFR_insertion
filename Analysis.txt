@@ -1,0 +1,11 @@
+Code for XMVBCF is correct (at least for num_gfr<-0)
+
+It seems to have a nonlinear relationship between PEHE and # MCMC iterations (only considerably affecting the performance when # MCMC iterations is very low (like below 100))
+
+For uncertainty quantification, the negative effect seems to be more linear and greater
+
+Interestingly, the length size for the coverage has a negative (nonlinear) correlation with # MCMC iteration. Could this be an explanation for the considerable decrease in performance for uncertainty quantification?
+
+When XMVBCF with unknown confounder, the relationship between PEHE and # MCMC iterations becomes even more nonlinear yet less significant
+
+

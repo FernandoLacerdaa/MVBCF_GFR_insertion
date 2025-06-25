@@ -5,6 +5,7 @@ library(RcppEigen)
 library(RcppDist)
 library(RcppArmadillo)
 library(mvtnorm)
+library(dbarts)
 sourceCpp("FirstModel.cpp")
 
 
