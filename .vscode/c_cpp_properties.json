@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Users/hugog/AppData/Local/R/win-library/4.3/Rcpp/include",
+        "C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppArmadillo/include",
+        "C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppDist/include",
+        "C:/Program Files/R/R-4.3.2/include",
+        "C:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix",
+        "C:/Users/hugog/AppData/Local/R/win-library/4.3/RcppEigen/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "compilerPath": "C:/Strawberry/c/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}
